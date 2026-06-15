@@ -1,4 +1,4 @@
-<!-- # ICD-11 Data Crawler
+# ICD-11 Data Crawler
 
 A Python command-line tool for building CSV datasets from the WHO ICD-11 API.
 It starts from an ICD-11 chapter or entity ID, walks the entity tree with
@@ -164,4 +164,4 @@ pytest
   bursts.
 - If an entity does not contain an ICD code, it is skipped in the CSV output.
 - API access depends on valid WHO ICD credentials and the configured release
-  endpoint. -->
+  endpoint.
